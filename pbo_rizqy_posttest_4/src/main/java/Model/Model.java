@@ -19,7 +19,6 @@ public abstract class Model {
 
     public String getGenre() { return genre; }
     public void setGenre(String genre) { this.genre = genre; }
-
-    // Abstract → wajib override di subclass
+
     public abstract String deskripsiMusik();
 }
